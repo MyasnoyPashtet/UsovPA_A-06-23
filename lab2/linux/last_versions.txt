@@ -1,0 +1,5 @@
+Debian 13.7 (trixie)
+Fedora Linux 44
+Linux Mint 22.3 "Zena"
+Ubuntu 26.04.1 LTS (Resolute Raccoon)
+openSUSE Leap 16.0
