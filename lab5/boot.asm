@@ -66,6 +66,7 @@ game:
     call read_yes_no
     cmp al, 'y'
     je game
+    mov si, bye_text
     call print
 
 halt:
@@ -128,7 +129,7 @@ lower       db 'LOWER', 13, 10, 0
 denied      db 'ACCESS DENIED ', 0
 granted     db 'ACCESS GRANTED', 0
 replay_text db 13, 10, 'Again Y/N', 13, 10, 0
-            db 'Bye', 0
+bye_text    db 'Bye', 0
 
 times 510 - ($ - $$) db 0
 dw 0xAA55
